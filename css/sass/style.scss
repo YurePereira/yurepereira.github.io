@@ -1,9 +1,10 @@
 
+@import '_colors';
+
 @import '_header';
 @import '_footer';
 
-$color1: beige;
-$colorText: cadetblue; 
+
 
 body {
     background-color: $color1;

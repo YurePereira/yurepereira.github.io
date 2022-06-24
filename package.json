@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/YurePereira/yurepereira.github.io/issues"
   },
-  "homepage": "https://github.com/YurePereira/yurepereira.github.io#readme"
+  "homepage": "https://github.com/YurePereira/yurepereira.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
