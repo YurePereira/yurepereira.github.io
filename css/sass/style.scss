@@ -1,9 +1,12 @@
 
 @import '_colors';
+@import '_headers';
 
 @import '_header';
 @import '_footer';
 
+// Partiais
+@import 'partial/form-page-contact';
 
 
 body {
