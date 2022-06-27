@@ -1,0 +1,42 @@
+
+#formation-page {
+
+    color: #000;
+
+    .formation-education-page {
+
+        .formation-education-title {
+            font-size: 35px;
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+
+        .formation-education-data {
+
+            border-left: 5px solid #A5C8CA;
+
+            ul {
+
+                margin-top: 150px;
+                margin-bottom: 150px;
+
+                li {
+
+                    font-size: 20px;
+                    padding-bottom: 25px;
+                    border-bottom: 2px solid #000;
+                    margin-bottom: 40px;
+                    list-style: none;
+
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+}
