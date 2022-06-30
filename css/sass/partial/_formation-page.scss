@@ -2,6 +2,15 @@
 #formation-page {
 
     color: #000;
+    margin-bottom: 150px;
+
+    .formation-title-page {
+        h1 {
+            font-size: 35px;
+            padding-top: 100px;
+            padding-bottom: 25px;
+        }
+    }
 
     .formation-education-page {
 
@@ -32,6 +41,66 @@
                         border-bottom: 0;
                     }
 
+                }
+            }
+
+        }
+
+    }
+
+    .formation-experience-page {
+
+        .experience-left, .experience-right {
+            padding-top: 30px;
+            padding-bottom: 60px;
+        }
+
+        .experience-left {
+            .experience-title {
+                font-size: 30px;
+            }
+            .experience-data {
+                font-size: 20px;
+            }
+            .experience-company {
+                font-size: 20px;
+            }
+            .experience-city {
+                font-size: 20px;
+            }
+        }
+        .experience-right {
+            
+            border-left: 5px solid #a5c8ca;
+            padding-left: 40px;
+
+            .experience-description-title {
+                font-size: 26px;
+                margin-bottom: 30px;
+            }
+
+            .experience-description-context {
+                font-size: 20px;
+                margin-bottom: 30px;
+                line-height: 26px;
+            }
+
+            .experience-technologies-title {
+                font-size: 26px;
+                margin-bottom: 10px;
+            }
+
+            .experience-technologies-items {
+                font-size: 26px;
+                padding-left: 0;
+                li {
+                    display: inline-block;
+                    list-style: none;
+                    font-size: 16px;
+                    height: 30px;
+                    background-color: #A5C8CA;
+                    padding: 4px 15px;
+                    margin-right: 10px;
                 }
             }
 
