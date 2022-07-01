@@ -1,1 +1,7 @@
-include: [".htaccess", "node_modules"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+include:
+  - node_modules
