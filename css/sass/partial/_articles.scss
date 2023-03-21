@@ -22,3 +22,26 @@
     }
 
 }
+
+#my-articles {
+
+    hr {
+        border-bottom: 2px solid #0066bd;
+        margin-bottom: 50px;
+    }
+    
+    .btn-see-all {
+        
+        margin: 0 auto;
+        background-color: #be4140;
+        border-color: #8f0100;
+        padding: 10px 40px;
+        
+        &:hover, &:focus {
+            background-color: #ef4444;
+            border-color: #c01818;
+        }
+        
+    }
+
+}
