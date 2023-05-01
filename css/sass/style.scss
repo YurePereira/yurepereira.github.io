@@ -24,7 +24,7 @@ body {
     width: 500px;
     margin: 0 auto;
     text-align: center;
-    min-height: 500px;
+    min-height: 220px;
 }
 
 #box h1 {
@@ -39,8 +39,10 @@ body {
     .photo-dev {
 
         margin: 60px auto 0;
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
+        border: 10px solid #212529;
+        border-radius: 60px;
 
         img {
             width: 200px;
