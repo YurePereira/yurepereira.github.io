@@ -33,3 +33,21 @@ body {
     font-weight: bold;
     margin-top: 50px;
 }
+
+#header {
+
+    .photo-dev {
+
+        margin: 60px auto 0;
+        width: 200px;
+        height: 200px;
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50px;
+            object-fit: cover;
+        }
+    }
+
+}
