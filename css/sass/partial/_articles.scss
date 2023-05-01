@@ -1,6 +1,16 @@
 
 #my-articles {
-    background-color: #dcefff;
+    // background-color: #dcefff;
+    background: rgb(132,199,255);
+    background: linear-gradient(
+        130deg, 
+        rgba(132,199,255,1) 0%,
+        rgba(220,239,255,1) 35%,
+        rgba(154,206,250,1) 100%);
+
+    // background: rgb(93,182,255);
+    // background: linear-gradient(130deg, rgba(93,182,255,1) 0%, rgba(204,231,254,1) 35%, rgba(131,186,233,1) 100%);
+
     color: #003e72;
     padding-top: 100px;
     padding-bottom: 100px;

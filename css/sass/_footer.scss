@@ -3,7 +3,11 @@
     
     width: 100%;
     min-height: 400px;
-    background-color: $color100;
+    // background-color: $color100;
+
+    background: rgb(99,115,129);
+    background: linear-gradient(130deg, rgba(99,115,129,1) 0%, rgba(130,158,180,1) 47%, rgba(99,115,129,1) 100%);
+    
     text-align: center;
 
     .phrase-2 {
