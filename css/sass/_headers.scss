@@ -1,4 +1,7 @@
 
+// Utilities
+@import 'utilities/responsive';
+
 .header-1 {
     background-color: $color100;
     display: inline-block;
@@ -10,4 +13,12 @@
     margin-bottom: 80px;
     text-transform: uppercase;
     color: #fff;
+}
+
+@include phone-only {
+
+    .header-1 {
+        padding-right: inherit;
+    }
+
 }

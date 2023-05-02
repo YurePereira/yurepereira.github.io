@@ -13,6 +13,9 @@
 @import 'partial/formation-page';
 @import 'partial/articles';
 
+// Utilities
+@import 'utilities/responsive';
+
 body {
     background-color: $color1;
     margin: 0;
@@ -29,7 +32,7 @@ body {
 
 #box h1 {
     font-size: 50px;
-    color: $colorText;
+    color: #fff;//@todo: Rever onde vão ficar essas cores.
     font-weight: bold;
     margin-top: 50px;
 }
@@ -50,6 +53,15 @@ body {
             border-radius: 50px;
             object-fit: cover;
         }
+    }
+
+}
+
+
+@include phone-only {
+
+    #box {
+        width: inherit;
     }
 
 }
